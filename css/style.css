@@ -2,13 +2,13 @@ header {
     background: teal;
     height: 200px;
     color: white;
-    top: 0px;
-    padding-top: 0;
-    margin: 0;
-
+    width: 960px;
+    margin: 0 auto;
 }
 
-#P1 {
+
+
+#nazvanie {
     font-weight: bold;
     font-size: x-large;
     text-align: center;
@@ -16,114 +16,31 @@ header {
 
 }
 
-#P2 {
+#Phone {
     font-size: 16pt;
     text-align: center;
-    padding-left: 250px;
+    padding-left: 270px;
     line-height: 0pt;
 }
 
-#P3 {
+#email {
     font-size: x-large;
     text-align: center;
-    padding-left: 210px;
-    border-top: 2px solid blue;
+    padding-left: 225px;
+
 
 }
 
-body {
-    width: 960px;
-    margin: 0 auto;
-}
+#stroka {
+line-height: 70px;
 
-#P4 {
-    text-align: center;
-    font-style: italic;
-}
-
-#blok {
-    background: teal;
-    width: 200px;
-    height: 290px;
-    position: absolute;
-    top: 230px;
-    left: 1px;
-    border-radius: 20px;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    font-size: 14pt;
-    font-style: italic;
-    padding-top: 10px;
-}
-
-#P6 {
-    line-height: 0pt;
-}
-
-#blok2 {
-    background: teal;
-    width: 220px;
-    height: 290px;
-    position: absolute;
-    right: 1px;
-    position: absolute;
-    top: 230px;
-    border-radius: 20px;
-    color: white;
-}
-
-#P7 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 14pt;
-    font-style: italic;
-}
-
-#P8 {
-    font-size: 10pt;
-    padding-left: 10px;
-}
-
-#P9 {
-    font-size: 10pt;
-    padding-left: 10px;
-    PADDING-RIGHT: 10 PX;
-}
-
-#P10 {
-    font-size: 10pt;
-    padding-left: 10px;
-}
-
-#P11 {
-    font-size: 10pt;
-    padding-left: 10px;
-    PADDING-RIGHT: 10 PX;
 
 }
 
-#blok3 {
-    background: teal;
-    width: 200px;
-    height: 700px;
-    position: absolute;
-    top: 540px;
-    left: 1px;
-    border-radius: 20px;
-    color: white;
-
+.grid_3{
+    width: 160px;
+    height: 300;
+    background:red ;
+   line-height: 600px;
 }
 
-#P12 {
-    text-align: center;
-    font-weight: bold;
-}
-
-#image {
-    text-align: center;
-}
-
-#P13 {
-    padding-bottom: 20px;
-}

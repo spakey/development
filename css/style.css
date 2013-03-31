@@ -31,7 +31,81 @@ header .container{
 
 #stroka {
 line-height: 70px;
+}
+
+#blok1{
+background: teal;
+width: 180px;
+height: 240px;
+border-radius: 20px;
+color: white;
+ text-align: center;
+font-weight: bold;
+line-height:18px;
+
+}
+#blok2{
+background: teal;
+    width: 180px;
+    height: 640px;
+    border-radius: 20px;
+text-align: center;
+    color: white;
+
+}
+#partnerstvo{
+padding-top: 10px;
+}
+#obrazec{
+padding-top: 30px;
+}
+#pogoda{
+padding-top: 100px;
+}
+#valuta{
+padding-top: 10px;
+}
+#blok3{
+    background: teal;
+    width: 180px;
+    height: 240px;
+    border-radius: 20px;
+    color: white;
 
 
 }
-
+#novosti{
+padding-top: 10px;
+   font-size: 15px;
+   font-weight: bold;
+    text-align: center;
+}
+#data1{
+font-size: 12px;
+  padding-left: 10px;
+    padding-top: 5px;
+}
+#text1{
+font-size: 12px;
+padding-right: 10px;
+padding-left: 10px;
+padding-top: 5px;
+}
+#data2{
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+#text2{
+    font-size: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+#kartinka1{
+padding-top: 25px;
+}
+#kolegi{
+text-align: center;
+font-weight: bold;
+}

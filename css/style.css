@@ -2,38 +2,40 @@ header .container{
     background: teal;
     height: 200px;
     color: white;
+    text-align: center;
+}
+header .image2{
+margin-top: 20px;
 }
 
 
 
-.name {
+header .name {
     font-weight: bold;
     font-size: 25px;
-    text-align: center;
-    margin-top: 10px;
+    margin-top: 40px;
 
 }
 
-.Phone {
+header .Phone {
     font-size: 16pt;
-    text-align: center;
     padding-left: 270px;
     line-height: 0pt;
     margin-top: 10px;
 }
 
-.email {
+header .email {
     font-size: 20px;
-    text-align: center;
     padding-left: 270px;
     margin-top: 10px;
 
 
 }
 
-.line {
-line-height: 70px;
+header .line {
 border: 1px solid white;
+font-style: oblique;
+ margin-top: 40px;
 }
 section .blok1{
 background: teal;
@@ -41,11 +43,13 @@ width: auto;
 height: 250px;
 margin-top: 10px;
 border-radius: 20px;
-color: white;
+color:red;
  text-align: center;
 font-weight: bold;
 line-height:40px;
 font-variant:small-caps;
+font-style: oblique;
+
 
 }
 section .blok2
@@ -56,6 +60,8 @@ background: teal;
     border-radius: 20px;
 text-align: center;
     color: white;
+ font-style: oblique;
+ font-weight: bold;
 
 }
 .partnership{

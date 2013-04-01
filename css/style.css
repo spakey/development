@@ -1,69 +1,77 @@
 html body header .container{
     background: teal;
-    height: 180px;
+    height: 173px;
     color: white;
     text-align: center;
 }
  html body header .image2{
 margin-top: 20px;
 }
-
+html body header .name {
+    height: 90px;
+    margin: 10px;
+    border-top: 1px solid #fff;
+    padding-right: 200px;
+    text-align: right;
+    line-height: 26px
+}
+html body header .name1{
+font-family:Century;
+    font-size: 21px;
+    font-weight: bold
+}
 html body header .logo {
 position: relative;
 float: left;
-    top: 40px;
+    width: 254px;
+    height: 63px;
+    top: 30px;
+    left: 5px;
 }
 html body header .dvorec{
     position: relative;
-    right: 20px;
+    right: 10px;
     height: 95px;
     width: 158px;
     float: right;
-    top: 20px;
-}
-html body header .name {
-    font-weight: bold;
-    font-size: 21px;
-    margin-top: 27px;
-    font-family: Century;
-
+    top: 13px;
 }
 
-html body header .Phone {
+html body header .phone {
     font-size: 19px;
-    padding-left: 270px;
-    line-height: 0pt;
-    margin-top: 10px;
     font-family: Century;
 }
 
 html body header .email {
     font-size: 20px;
-    padding-left: 270px;
-    margin-top: 10px;
-
-
+    font-family: Century;
 }
 
 html body header .line {
 border-top: 1px solid white;
     border-bottom: 1px solid white;
 font-style: oblique;
- margin-top: 40px;
+ margin-top: 35px;
 }
-html body section .blok1{
-background: teal;
-width: auto;
-height: 250px;
-margin-top: 10px;
-border-radius: 20px;
+html body section .grid_3 .left_panel{
+    background: teal;
+    border-radius: 20px;
+    color: #ffffff;
+height: auto;
+}
+html body section .grid_3 .left_panel .akordeon h3{
 text-align: center;
-font-weight: bold;
-line-height:40px;
-font-variant:small-caps;
-font-style: oblique;
-
-
+    font-family: Calibri;
+    font-size: 30px;
+    font-weight: bold;
+padding-top: 20px;
+}
+html body section .grid_3 .left_panel .akordeon h3 div ul li{
+   display:none;
+    padding-right: 10px;
+}
+html body section .grid_3 .left_panel .akordeon h3 div ul li:hover{
+    display:block;
 }
 html body section .blok2
 {

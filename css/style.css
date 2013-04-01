@@ -1,30 +1,43 @@
-header .container{
+html body header .container{
     background: teal;
-    height: 200px;
+    height: 180px;
     color: white;
     text-align: center;
 }
-header .image2{
+ html body header .image2{
 margin-top: 20px;
 }
 
-
-
-header .name {
+html body header .logo {
+position: relative;
+float: left;
+    top: 40px;
+}
+html body header .dvorec{
+    position: relative;
+    right: 20px;
+    height: 95px;
+    width: 158px;
+    float: right;
+    top: 20px;
+}
+html body header .name {
     font-weight: bold;
-    font-size: 25px;
-    margin-top: 40px;
+    font-size: 21px;
+    margin-top: 27px;
+    font-family: Century;
 
 }
 
-header .Phone {
-    font-size: 16pt;
+html body header .Phone {
+    font-size: 19px;
     padding-left: 270px;
     line-height: 0pt;
     margin-top: 10px;
+    font-family: Century;
 }
 
-header .email {
+html body header .email {
     font-size: 20px;
     padding-left: 270px;
     margin-top: 10px;
@@ -32,19 +45,19 @@ header .email {
 
 }
 
-header .line {
-border: 1px solid white;
+html body header .line {
+border-top: 1px solid white;
+    border-bottom: 1px solid white;
 font-style: oblique;
  margin-top: 40px;
 }
-section .blok1{
+html body section .blok1{
 background: teal;
 width: auto;
 height: 250px;
 margin-top: 10px;
 border-radius: 20px;
-color:red;
- text-align: center;
+text-align: center;
 font-weight: bold;
 line-height:40px;
 font-variant:small-caps;
@@ -52,7 +65,7 @@ font-style: oblique;
 
 
 }
-section .blok2
+html body section .blok2
 {
 background: teal;
     width: auto;
@@ -64,19 +77,17 @@ text-align: center;
  font-weight: bold;
 
 }
-.partnership{
-padding-top: 10px;
-}
-.sample{
+
+html body section .sample{
 padding-top: 30px;
 }
-.weather{
+html body section .weather{
 padding-top: 100px;
 }
-.currency{
+html body section .currency{
 padding-top: 10px;
 }
-section .blok3{
+html body section  .blok3{
     background: teal;
     width: auto;
     height: 250px;
@@ -86,35 +97,35 @@ section .blok3{
 
 
 }
-.news{
+html body section .news{
 padding-top: 10px;
    font-size: 15px;
    font-weight: bold;
     text-align: center;
 }
-.data1{
+html body section .data1{
 font-size: 12px;
   padding-left: 10px;
     padding-top: 5px;
 }
-.text1{
+html body section .text1{
 font-size: 12px;
 padding-right: 10px;
 padding-left: 10px;
 padding-top: 5px;
 }
-.data2{
+html body section .data2{
     font-size: 12px;
     padding-left: 10px;
     padding-top: 30px;
 }
-.text2{
+html body section .text2{
     font-size: 12px;
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 5px;
 }
-.image1{
+html body section .image1{
 margin-top: 60px;
 
 }

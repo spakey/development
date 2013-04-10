@@ -31,8 +31,6 @@ float: left;
 html body header .dvorec{
     position: relative;
     right: 10px;
-    height: 95px;
-    width: 158px;
     float: right;
     top: 13px;
 }
@@ -52,90 +50,27 @@ border-top: 1px solid white;
     border-bottom: 1px solid white;
 font-style: oblique;
  margin-top: 35px;
+ margin-left: 10px;
+ margin-right: 10px;
 }
 html body section .grid_3 .left_panel{
     background: teal;
     border-radius: 20px;
     color: #ffffff;
-height: auto;
-}
-html body section .grid_3 .left_panel .akordeon h3{
-text-align: center;
-    font-family: Calibri;
-    font-size: 30px;
-    font-weight: bold;
-padding-top: 20px;
-}
-html body section .grid_3 .left_panel .akordeon h3 div ul li{
-   display:none;
-    padding-right: 10px;
-}
-html body section .grid_3 .left_panel .akordeon h3 div ul li:hover{
-    display:block;
-}
-html body section .blok2
-{
-background: teal;
-    width: auto;
-    height: auto;
-    border-radius: 20px;
-text-align: center;
-    color: white;
- font-style: oblique;
- font-weight: bold;
-
+height: 300px;
+  margin-top: 10px;
+  width: 290px;
 }
 
-html body section .sample{
-padding-top: 30px;
+html body section .grid_3 .left_panel .acordeon .head{
+line-height: 80px;
+margin-left: 45px;
+font-weight: bold;
+  font-size: 23px;
+ text-transform: uppercase;
+font-style: oblique;
 }
-html body section .weather{
-padding-top: 100px;
-}
-html body section .currency{
-padding-top: 10px;
-}
-html body section  .blok3{
-    background: teal;
-    width: auto;
-    height: 250px;
-    border-radius: 20px;
-    color: white;
-    margin-top: 10px;
-
-
-}
-html body section .news{
-padding-top: 10px;
-   font-size: 15px;
-   font-weight: bold;
-    text-align: center;
-}
-html body section .data1{
-font-size: 12px;
-  padding-left: 10px;
-    padding-top: 5px;
-}
-html body section .text1{
-font-size: 12px;
-padding-right: 10px;
-padding-left: 10px;
-padding-top: 5px;
-}
-html body section .data2{
-    font-size: 12px;
-    padding-left: 10px;
-    padding-top: 30px;
-}
-html body section .text2{
-    font-size: 12px;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 5px;
-}
-html body section .image1{
-margin-top: 60px;
-
-}
+html body section .grid_3 .left_panel .acordeon  a:hover{text-decoration:underline}
+html body section .grid_3 .left_panel .acordeon a{text-decoration:none}
 
 

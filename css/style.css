@@ -1,5 +1,5 @@
 html body header .container{
-    background: teal;
+    background: #008080;
     height: 173px;
     color: white;
     text-align: center;
@@ -68,7 +68,7 @@ margin-left: 45px;
 font-weight: bold;
   font-size: 23px;
  text-transform: uppercase;
-font-style: oblique;
+font-style: italic;
 }
 html body section .grid_3 .left_panel .acordeon  a:hover{text-decoration:underline}
 html body section .grid_3 .left_panel .acordeon a{text-decoration:none}

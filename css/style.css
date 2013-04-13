@@ -1,5 +1,5 @@
 html body header .container{
-    background: #008080;
+    background: #009999;
     height: 173px;
     color: white;
     text-align: center;
@@ -54,7 +54,7 @@ font-style: oblique;
  margin-right: 10px;
 }
 html body section .grid_3 .left_panel{
-    background: teal;
+    background: #009999;
     border-radius: 20px;
     color: #ffffff;
 height: 300px;
@@ -70,7 +70,10 @@ font-weight: bold;
  text-transform: uppercase;
 font-style: italic;
 }
-html body section .grid_3 .left_panel .acordeon  a:hover{text-decoration:underline}
-html body section .grid_3 .left_panel .acordeon a{text-decoration:none}
+html body section .grid_3 .left_panel .acordeon  a:hover{
+text-decoration:underline
+}
+html body section .grid_3 .left_panel .acordeon a{
+text-decoration:none}
 
 

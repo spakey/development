@@ -71,3 +71,10 @@ html body section .grid_3 .left_panel .acordeon a{
 text-decoration:none}
 
 
+ .acordeon li ul {
+  display: none;
+
+ }
+ .acordeon  li:hover ul { display: block;
+ }
+

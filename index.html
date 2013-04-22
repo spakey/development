@@ -8,23 +8,10 @@
     <link  href="css/style.less" rel="stylesheet/less" type="text/css">
     <script src="js/less.js" type="text/javascript"></script>
     <meta charset="utf-8">
+    <script src=/js/jquary1.9.1.js></script>
+    <script type="text/javascript" src="js/main.js"></script>
 
-    <script language=JavaScript>
-        function clickHandler() {
-            var targetId, srcElement, targetElement;
-            srcElement = window.event.srcElement;
-            if (srcElement.className == "Outline") {
-                targetId = srcElement.id + "details";
-                targetElement = document.all(targetId);
-                if (targetElement.style.display == "none") {
-                    targetElement.style.display = "";
-                } else {
-                    targetElement.style.display = "none";
-                }
-            }
-        }
-        document.onclick = clickHandler;
-    </script>
+
 </head>
 <body link="white" vlink="white" alink="white">
 
@@ -45,7 +32,7 @@
                 <div class="email">e-mail: info@parexp.ru</div>
             </div>
             <div class="line">
-                <marquee direction="right" scrollAmount="9">Первичная подготовка экспертов,повышение квалификации,
+                <marquee direction="left" scrollAmount="9">Первичная подготовка экспертов,повышение квалификации,
                     переподготовка, семинары и конференции,сертификация
                 </marquee>
             </div>
@@ -69,76 +56,57 @@
                         </div>
                     </li>
                     <li class="accordion">
-                        <a href="#" class="head">о партнёрстве</a>
+                        <a href="#" class="head">Обучение</a>
                         <div>
                             <ul>
-                                <li><a href="#">Устав</a></li>
-                                <li><a href="#">Членство</a></li>
-                                <li><a href="#">Как вступить/продлить</a></li>
-                                <li><a href="#">Реестр членов</a></li>
-                                <li><a href="#">Реквизиты</a></li>
+                                <li><a href="#">Первичная подготовка экспертов</a></li>
+                                <li><a href="#">Повышение квалификации экспертов</a></li>
+                                <li><a href="#">Экспертные специальности</a></li>
+                                <li><a href="#">Стоимость обучения</a></li>
+                                <li><a href="#">Условия обучения/Формы документов</a></li>
                             </ul>
                         </div>
                     </li>
                     <li class="accordion">
-                        <a href="#" class="head">о партнёрстве</a>
+                        <a href="#" class="head">Семинары</a>
                         <div>
                             <ul>
-                                <li><a href="#">Устав</a></li>
-                                <li><a href="#">Членство</a></li>
-                                <li><a href="#">Как вступить/продлить</a></li>
-                                <li><a href="#">Реестр членов</a></li>
-                                <li><a href="#">Реквизиты</a></li>
+                                <li><a href="#">Автотехническая экспертиза</a></li>
+                                <li><a href="#">Автотовароведческая экспертиза</a></li>
+                                <li><a href="#">Товароведческая экспертиза</a></li>
+                                <li><a href="#">Почерковедческая экспертиза</a></li>
                             </ul>
                         </div>
                     </li>
+                    <li class="accordion">
+                        <a href="#" class="head">Сертификация</a>
+                        <div>
+                            <ul>
+                                <li><a href="#">Направления сертификации</a></li>
+                                <li><a href="#">Порядок сертификации</a></li>
+                                <li><a href="#">Документы</a></li>
+                                <li><a href="#">Реестр сертифицированных экспертов и организаций</a></li>
+                                <li><a href="#">Система сертификации</a></li>
+                                <li><a href="#">Положение о знаке</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="accordion">
+                        <a href="#" class="head">Сотрудничество</a>
+                    </li>
+                    <li class="accordion">
+                        <a href="#" class="head">Контакты</a>
+                    </li>
                 </ul>
-                <!--<div class="acordeon">-->
-                    <!--<li><a href="#" class="head">Обучение</a>-->
-                        <!--<div>-->
-                        <!--<ul>-->
-                            <!--<li><a href="#">Первичная подготовка экспертов</a></li>-->
-                            <!--<li><a href="#">Повышение квалификации экспертов</a></li>-->
-                            <!--<li><a href="#">Переподготовка экспертов</a></li>-->
-                            <!--<li><a href="#">Экспертные специальности</a></li>-->
-                            <!--<li><a href="#">Стоимость обучения</a></li>-->
-                            <!--<li><a href="#">Условия обучения/Формы документов</a></li>-->
-                        <!--</ul>-->
-                            <!--</div>-->
-                    <!--</li>-->
-                <!--</div>-->
-                <!--<div class="acordeon">-->
-                  <!--<li><a href="#" class="head">Семинары</a>-->
-                    <!--<div>-->
-                        <!--<ul>-->
-                            <!--<li><a href="#"> Автотехническая экспертиза</a></li>-->
-                            <!--<li><a href="#>"> Автотовароведческая экспертиза</a></li>-->
-                            <!--<li><a href="#"> Товароведческая экспертиза</a></li>-->
-                            <!--<li><a href="#"> Почерковедческая экспертиза</a></li>-->
-                        <!--</ul>-->
-                    <!--</div>-->
-                    <!--</li>-->
-                <!--</div>-->
-                <!--<div class="acordeon">-->
-                    <!--<li><a href="#" class="head">Сертификация</a>-->
-                            <!--<ul>-->
-                                <!--<li><a href="#"> Направления сертификации</a></li>-->
-                                <!--<li><a href="#>"> Порядок сертификации</a></li>-->
-                                <!--<li><a href="#"> Документы</a></li>-->
-                                <!--<li><a href="#"> Реестр сертифицированных экспертов и организаций</a></li>-->
-                                <!--<li><a href="#"> Система сертификации</a></li>-->
-                                <!--<li><a href="#"> Положение о знаке</a></li>-->
-                            <!--</ul>-->
-                    <!--</li>-->
-                <!--</div>-->
-                <!--<div class="acordeon">-->
-                    <!--<a href="#" class="head">Сотрудничество</a>-->
-                  <!--</div>-->
-                <!--<div class="acordeon">-->
-                    <!--<a href="#" class="head">Контакты</a>-->
-                <!--</div>-->
+
             </div>
+            <div class="blok_info">
+            <div class="sample">Образец сертификата судебного эксперта</div>
+            <div class="certificate"><img src="images/vpn1.png"></div>
+            </div>
+
         </div>
+
         <div class="grid_6"></div>
         <div class="grid_3">
 

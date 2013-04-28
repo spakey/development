@@ -11,12 +11,12 @@ jQuery(document).ready(function(){
         $(this).next().toggle('slow');
         return false;
     }).next().hide();
-});
 
-$("#cert_1").fancybox({
-    helpers: {
-        title : {
-            type : 'float'
+    $("#cert_1").fancybox({
+        helpers: {
+            title : {
+                type : 'float'
+            }
         }
-    }
+    });
 });
